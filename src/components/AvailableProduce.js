@@ -274,7 +274,7 @@ function AvailableProduce(){
     <React.Fragment>
       <hr />
       {availableProduce.map((produce, index) =>
-        <Market month={produce.month}
+        <Produce month={produce.month}
           selection={produce.selection}
           key={index}/>
       )}
