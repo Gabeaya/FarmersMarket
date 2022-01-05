@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
-import MarketSchedule from "./MarketSchedule";
+import ToggleControl from "./ToggleControl";
 
 function App(){
   
   return (
     <React.Fragment>
       <Header />
-      <MarketSchedule />
+      <ToggleControl />
     </React.Fragment>
   );
 }
